@@ -1,0 +1,14 @@
+.vs/
+*.opensdf
+*.sdf
+*.suo
+*.obj
+*.bak
+*.user
+*.ipch
+*.pdb
+*.aps
+/build
+
+# symlinks
+/lib

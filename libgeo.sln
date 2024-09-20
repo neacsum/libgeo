@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libgeo", "libgeo.vcxproj", "{4B01366A-7DFE-4867-B8A9-3DE0965AE056}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tests", "tests\tests.vcxproj", "{F3153BFB-D61A-4F48-BA92-7F3BE1431428}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4B01366A-7DFE-4867-B8A9-3DE0965AE056} = {4B01366A-7DFE-4867-B8A9-3DE0965AE056}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C35FAF1F-FA3A-4D36-9A2B-864E95994C13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B01366A-7DFE-4867-B8A9-3DE0965AE056}.Debug|x64.ActiveCfg = Debug|x64
+		{4B01366A-7DFE-4867-B8A9-3DE0965AE056}.Debug|x64.Build.0 = Debug|x64
+		{4B01366A-7DFE-4867-B8A9-3DE0965AE056}.Debug|x86.ActiveCfg = Debug|Win32
+		{4B01366A-7DFE-4867-B8A9-3DE0965AE056}.Debug|x86.Build.0 = Debug|Win32
+		{4B01366A-7DFE-4867-B8A9-3DE0965AE056}.Release|x64.ActiveCfg = Release|x64
+		{4B01366A-7DFE-4867-B8A9-3DE0965AE056}.Release|x64.Build.0 = Release|x64
+		{4B01366A-7DFE-4867-B8A9-3DE0965AE056}.Release|x86.ActiveCfg = Release|Win32
+		{4B01366A-7DFE-4867-B8A9-3DE0965AE056}.Release|x86.Build.0 = Release|Win32
+		{F3153BFB-D61A-4F48-BA92-7F3BE1431428}.Debug|x64.ActiveCfg = Debug|x64
+		{F3153BFB-D61A-4F48-BA92-7F3BE1431428}.Debug|x64.Build.0 = Debug|x64
+		{F3153BFB-D61A-4F48-BA92-7F3BE1431428}.Debug|x86.ActiveCfg = Debug|Win32
+		{F3153BFB-D61A-4F48-BA92-7F3BE1431428}.Debug|x86.Build.0 = Debug|Win32
+		{F3153BFB-D61A-4F48-BA92-7F3BE1431428}.Release|x64.ActiveCfg = Release|x64
+		{F3153BFB-D61A-4F48-BA92-7F3BE1431428}.Release|x64.Build.0 = Release|x64
+		{F3153BFB-D61A-4F48-BA92-7F3BE1431428}.Release|x86.ActiveCfg = Release|Win32
+		{F3153BFB-D61A-4F48-BA92-7F3BE1431428}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C907F69-FCE0-46CC-A19A-294BA52F7C84}
+	EndGlobalSection
+EndGlobal
